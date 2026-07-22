@@ -54,12 +54,12 @@ export function CourseSegmentation() {
                   <Image
                     alt=""
                     width={400}
-                    height={240}
-                    className="h-45 w-full object-cover"
+                    height={200}
+                    className="h-40 w-full object-cover"
                     src={segment.image}
                   />
-                  <div className="px-5 py-6">
-                    <h3 className="text-2xl font-semibold leading-tight text-primary">
+                  <div className="px-5 py-4">
+                    <h3 className="text-xl font-semibold leading-tight text-primary">
                       {segment.title}
                     </h3>
                   </div>

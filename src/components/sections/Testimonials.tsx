@@ -136,13 +136,13 @@ export function Testimonials() {
               key={testimonial.company}
               className="w-full shrink-0 snap-center px-3"
             >
-              <div className="rounded-lg border border-border-soft bg-white px-9 py-9">
+              <div className="rounded-lg border border-border-soft bg-white px-8 py-8">
                 <Image
                   src={testimonial.logo}
                   alt={`${testimonial.company} logo`}
                   width={96}
                   height={56}
-                  className="h-12 max-w-20 object-contain"
+                  className="h-12 w-18 object-contain"
                 />
 
                 <p className="mt-7 text-sm font-semibold leading-6 text-text-secondary">

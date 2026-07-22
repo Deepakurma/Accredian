@@ -48,8 +48,8 @@ export function HowItWorks() {
               <span className="absolute left-3 top-3 flex h-6 w-6 items-center justify-center rounded-full border-2 border-blue-300 bg-white text-xs font-bold text-text-primary">
                 {index + 1}
               </span>
-              <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary text-white shadow-md">
-                <step.icon size={28} />
+              <span className="mx-auto shrink-0 flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-full bg-primary text-white shadow-md">
+                <step.icon className="size-6 sm:size-8" />
               </span>
               <h3 className="mt-5 text-base font-semibold text-text-primary">
                 {step.title}

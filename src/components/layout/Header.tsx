@@ -50,7 +50,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100 shadow-sm transition-all duration-300">
-      <div className="mx-auto flex h-18 max-w-7xl items-center justify-between px-8 sm:h-20 lg:px-5">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-8 sm:h-18 md:h-20 lg:px-5">
         <a className="leading-none" href="#home">
           <span className="block text-xl font-bold text-primary sm:text-2xl">
             {siteConfig.name}

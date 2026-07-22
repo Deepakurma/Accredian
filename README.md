@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Accredian Enterprise Landing Page Clone
 
-## Getting Started
+A responsive recreation of the Accredian Enterprise landing page built using **Next.js**, **TypeScript**, and **Tailwind CSS**. The project focuses on clean UI, reusable components, responsive design, and maintainable code structure.
 
-First, run the development server:
+## Live Demo
+
+**Vercel:** https://accredian-eight-ivory.vercel.app
+
+## GitHub Repository
+
+https://github.com/Deepakurma/Accredian
+
+---
+
+# Tech Stack
+
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Next.js API Routes
+
+---
+
+# Features
+
+- Fully responsive design (Desktop, Tablet & Mobile)
+- Reusable React components
+- Clean and organized project structure
+- Responsive navigation bar
+- Landing page sections recreated
+- Footer
+- Smooth scrolling/navigation
+- Mock API Route integration
+
+---
+
+# Project Structure
+
+```
+app/
+├── api/
+├── layout.tsx
+├── page.tsx
+
+components/
+├── layout/
+├── sections/
+├── ui/
+
+data/
+├── site.ts
+```
+
+---
+
+# Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Deepakurma/Accredian
+```
+
+### 2. Navigate into the project
+
+```bash
+cd Accredian
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **http://localhost:3000** in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Approach Taken
 
-## Learn More
+The project was developed using a component-based architecture to keep the code modular, reusable, and easy to maintain.
 
-To learn more about Next.js, take a look at the following resources:
+The landing page was broken down into reusable sections such as the Header, Hero, FAQ, Testimonials, and Various others. Each section is implemented as an independent component.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Responsive layouts were built using Tailwind CSS utility classes, ensuring the page adapts well across desktop, tablet, and mobile devices.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For the bonus requirement, a lead capture form submits data to a Next.js API Route which upon submission shows a succes message, demonstrating basic client-server interaction.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# AI Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+AI tools were used during development to assist with:
+
+- Brainstorming component structure
+- Debugging issues
+- Improving code readability
+
+---
+
+# Improvements With More Time
+
+Given additional development time, I would:
+
+- Improve accessibility (ARIA labels, keyboard navigation)
+- Add animations and subtle page transitions
+- Optimize images and loading performance
+- Improve SEO with additional metadata
+- Implementing and connecting live api
+- Further polish the UI
+
+---
+
+# Deployment
+
+The application is deployed on **Vercel**.

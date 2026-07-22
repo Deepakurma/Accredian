@@ -19,7 +19,7 @@ export function Clients() {
             </>
           }
         />
-        <div className="mt-10 md:mt-16 overflow-hidden md:hidden">
+        <div className="mt-4 sm:mt-10 md:mt-16 overflow-hidden md:hidden">
           <div className="logo-marquee flex w-max items-center gap-6">
             {[...clients, ...clients].map((client, index) => (
               <div

@@ -24,7 +24,7 @@ export function Faqs({ onEnquire }: FaqsProps) {
           <div className="flex gap-4 overflow-x-auto pb-3 md:block md:space-y-5 md:overflow-visible md:pb-0">
             {faqCategories.map((category, index) => (
               <button
-                className={`h-14 min-w-40 cursor-pointer text-nowrap rounded-md border px-4 text-sm font-semibold shadow-md transition-all duration-300 hover:border-primary hover:text-primary hover:scale-[1.01] active:scale-[0.99] md:w-full md:text-base ${
+                className={`h-12 sm:h-14 min-w-40 cursor-pointer text-nowrap rounded-md border px-4 text-sm font-semibold shadow-md transition-all duration-300 hover:border-primary hover:text-primary hover:scale-[1.01] active:scale-[0.99] md:w-full md:text-base ${
                   index === activeTab
                     ? "border-primary bg-white text-primary shadow-sm shadow-primary/5"
                     : "border-border-strong bg-white text-text-muted"
@@ -75,7 +75,7 @@ export function Faqs({ onEnquire }: FaqsProps) {
             ))}
           </div>
         </div>
-        <div className="mt-14 flex justify-center">
+        <div className="mt-10 flex justify-center">
           <button
             className="inline-flex cursor-pointer items-center justify-center rounded-md bg-primary px-7 py-4 text-base font-semibold leading-none text-white shadow-lg transition-all duration-300 hover:bg-primary-hover hover:scale-[1.02] active:scale-[0.98] hover:shadow-xl hover:shadow-primary/20"
             onClick={onEnquire}

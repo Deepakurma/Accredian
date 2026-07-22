@@ -124,7 +124,7 @@ export function Footer({ onEnquire }: FooterProps) {
         </div>
       </div>
 
-      <p className="mx-auto mt-3 w-fit text-center text-sm font-medium text-white/70 md:text-text-primary">
+      <p className="mx-auto mt-3 w-fit text-center text-xs sm:text-sm font-medium text-white/70 md:text-text-primary">
         © 2026 Accredian A Brand of FullStack Education Pvt Ltd. All Rights
         Reserved
       </p>

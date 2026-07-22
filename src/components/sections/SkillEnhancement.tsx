@@ -37,7 +37,7 @@ export function SkillEnhancement() {
           <p className="text-sm font-semibold uppercase text-blue-200">
             Who Should Join?
           </p>
-          <h2 className="text-2xl font-semibold leading-tight text-white mt-2 md:text-4xl">
+          <h2 className="text-xl sm:text-2xl font-semibold leading-tight text-white mt-2 md:text-4xl">
             Strategic Skill Enhancement
           </h2>
           <Image

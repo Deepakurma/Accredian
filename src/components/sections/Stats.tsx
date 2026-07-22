@@ -18,7 +18,7 @@ export function Stats() {
             </>
           }
         />
-        <div className="mt-10 md:mt-16 grid justify-center gap-0 md:grid-cols-3">
+        <div className="mt-4 sm:mt-10 md:mt-16 grid justify-center gap-0 md:grid-cols-3">
           {stats.map((item) => (
             <div
               className="flex justify-center w-fit items-center gap-6 border-b-2 border-border-soft px-3 py-8 text-left last:border-b-0 md:block md:border-b-0 md:border-r-2 md:px-8 md:py-0 md:text-center md:last:border-r-0"
