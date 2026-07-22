@@ -59,9 +59,9 @@ export function SkillEnhancement() {
                 className="flex items-start gap-4 sm:gap-6 md:block"
                 key={audience.title}
               >
-                <Icon className="shrink-0 size-10" strokeWidth={2} />
+                <Icon className="shrink-0 size-10 sm:size-12" strokeWidth={2} />
                 <div>
-                  <h3 className="text-md sm:text-2xl font-semibold leading-tight md:mt-5 md:text-xl">
+                  <h3 className="text-md font-semibold leading-tight md:mt-5 sm:text-xl">
                     {audience.title}
                   </h3>
                   <p className="mt-1 max-w-sm text-xs sm:text-sm font-medium text-white md:mt-1 md:max-w-xs md:text-sm md:leading-5 md:text-blue-100">

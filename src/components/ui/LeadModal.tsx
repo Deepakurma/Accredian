@@ -75,7 +75,7 @@ export function LeadModal({ isOpen, onClose }: LeadModalProps) {
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4 py-8"
       role="dialog"
     >
-      <div className="grid max-h-[90vh] overflow-y-auto w-full max-w-3xl overflow-hidden rounded-lg bg-white shadow-2xl md:grid-cols-2">
+      <div className="grid w-full max-w-3xl overflow-hidden rounded-lg bg-white shadow-2xl md:grid-cols-2 max-h-[90vh]">
         <div className="relative hidden bg-primary-muted md:block min-h-96">
           <Image
             alt="Corporate training discussion"
@@ -84,7 +84,7 @@ export function LeadModal({ isOpen, onClose }: LeadModalProps) {
             src={modalImage}
           />
         </div>
-        <div className="p-7">
+        <div className="p-7 overflow-y-auto max-h-[90vh]">
           <div className="flex items-center justify-between gap-4">
             <h2 className="text-2xl font-semibold text-text-primary">
               Enquire Now

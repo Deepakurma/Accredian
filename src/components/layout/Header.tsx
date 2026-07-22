@@ -65,7 +65,7 @@ export function Header() {
           onClick={() => setIsOpen(!isOpen)}
           type="button"
         >
-          {isOpen ? <X size={38} /> : <Menu size={38} />}
+          {isOpen ? <X className="size-8 shrink-0 sm:size-10" /> : <Menu className="size-8 shrink-0 sm:size-10" />}
         </button>
         <nav className="hidden items-center gap-8 text-sm font-semibold text-text-primary lg:flex">
           {navItems.map((item) => (
